@@ -159,7 +159,6 @@ function App() {
                 <div><strong>Ph.D.</strong><span>Physics</span><small>Manonmaniam Sundaranar University.  Tirunelveli</small></div>
                 <div><strong>M.Phil.</strong><span>Physics</span><small>Manonmaniam Sundaranar University.  Tirunelveli</small></div>
                 <div><strong>M.Sc.</strong><span>Physics</span><small>Sarah Tucker College.  Tirunelveli</small></div>
-                <div><strong>B.Sc.</strong><span>Physics</span><small>Sarah Tucker College.  Tirunelveli</small></div>
               </div>
               <div className="experience-strip">
                 <span>Teaching experience</span>
@@ -179,13 +178,13 @@ function App() {
               <div className="card-top"><span className="course-icon">⚛</span><span>01</span></div>
               <h3>Physics</h3>
               <p>Build intuition for the laws, ideas and problem-solving methods behind the subject.</p>
-              <div className="course-details"><span>Classes 6–12</span><span>CBSE + State Board</span></div>
+              <div className="course-details"><span>Classes 9–12</span><span>CBSE + State Board</span></div>
               <ul><li>Concept-focused lessons</li><li>Problem-solving practice</li><li>Exam preparation</li><li>Regular assessment</li></ul>
             </article>
           </div>
           <div className="class-band">
             <span>CLASSES</span>
-            {[6, 7, 8, 9, 10, 11, 12].map((n) => <b key={n}>{n}</b>)}
+            {[9, 10, 11, 12].map((n) => <b key={n}>{n}</b>)}
             <span>CBSE · STATE BOARD</span>
           </div>
         </section>
